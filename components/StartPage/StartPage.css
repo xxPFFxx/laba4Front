@@ -1,0 +1,131 @@
+
+.StartPage {
+    background: #acdcd5;
+
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+body .form .p-button{
+    background: #053603;
+    border: 2px #0dc200 solid;
+
+}
+body .form .p-component{
+
+    border: 0 #0dc200 solid;
+
+}
+body .form .p-component :focus{
+
+    border: 0 #0dc200 solid;
+
+}
+
+body .form .p-button .p-button-text{
+    background: #053603;
+    border: 0px;
+
+}
+body .form .p-button .p-button-text  :hover{
+    background: #053603;
+    border: 2px #0dc200 solid;
+
+}
+
+body .p-inputtext:enabled:focus{
+  box-shadow: 0 0 0 0.2em #0dc200 !important;
+
+}
+
+
+
+
+
+body .form .p-button :hover{
+    background: #0dc200;
+
+    border: 2px #0dc200 solid;
+    box-sizing: unset;
+}
+
+@media only screen and (min-width: 1124px) {
+
+    .StartPage {
+        height: 800px;
+
+    }
+
+    .Auth {
+        margin-top: 00%;
+        flex-basis: 300px;
+        margin-left: 20%;
+    }
+
+    .Register {
+        margin-top: 00%;
+        flex-basis: 300px;
+        margin-right: 20%;
+    }
+
+
+    .Startmainflex{
+
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+}
+
+
+@media only screen and (min-width: 712px) and (max-width: 1123px) {
+
+
+    .Auth {
+        margin-top: 00%;
+        flex-basis: 300px;
+    }
+
+    .Register {
+        margin-top: 00%;
+        flex-basis: 300px;
+    }
+
+    .Startmainflex{
+
+        flex-flow: column;
+
+    }
+
+}
+
+@media only screen and (max-width: 711px) {
+
+
+    .Auth {
+        margin-top: 00%;
+        flex-basis: 300px;
+    }
+
+    .Register {
+        margin-top: 00%;
+        flex-basis: 300px;
+    }
+
+    .Startmainflex{
+
+        flex-flow: column;
+
+    }
+
+}
+
+
+
+

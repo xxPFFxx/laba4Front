@@ -1,0 +1,43 @@
+
+
+@media only screen and (min-width: 1124px){
+
+
+
+}
+
+
+@media only screen and (min-width: 712px) and (max-width: 1123px){
+
+
+
+    .form .RegisterInput {
+
+        /*flex-basis: 40px;*/
+        /*margin: 0 40% 0  40%;*/
+        margin: 0 auto;
+        width: 220px;
+        alignment: center;
+        display: block;
+    }
+
+
+
+}
+@media only screen and (max-width: 711px)  {
+
+
+
+    .form .RegisterInput {
+
+        /*flex-basis: 40px;*/
+        /*margin: 0 40% 0  40%;*/
+        margin: 0 auto;
+        width: 220px;
+        alignment: center;
+        display: block;
+    }
+
+
+
+}
