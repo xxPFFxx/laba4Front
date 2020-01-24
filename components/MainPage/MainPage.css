@@ -1,6 +1,6 @@
 
 .MainPage{
-    background: #acdcd5;
+    background: #b2dc79;
 
 }
 
@@ -25,11 +25,12 @@
 }
 
 .ResultsTable span{
-width: 100%;
+width: 10%;
 
 }
 .ResultsTable button{
-width: 100%;
+width: 120%;
+    margin: 2px;
 }
 
 .Username{
@@ -104,7 +105,7 @@ body .p-slider.p-slider-horizontal .p-slider-handle{
         display: flex;
         flex-flow: column;
     }
-    .PointForm button{
+    .PointForm #SubmitButton{
         width: 150px;
         height: 50px;
         font-size: 20px;
@@ -125,19 +126,7 @@ body .p-slider.p-slider-horizontal .p-slider-handle{
     /*    width: 30%;*/
     /*}*/
 
-    .XradioDiv{
 
-        margin-left: 20px;
-
-
-    }
-
-    .RradioDiv{
-
-        margin-left: 40px;
-
-
-    }
     .mainflex {
 
         display: flex;

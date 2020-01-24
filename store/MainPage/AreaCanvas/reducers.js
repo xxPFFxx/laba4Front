@@ -4,7 +4,7 @@ import {INVALID_DATA_ACTION} from "../actions";
 const defaultState = {
     x: undefined,
     y: undefined,
-    r: 4,
+    r: 3,
     results:[],reason: "",
 
 };

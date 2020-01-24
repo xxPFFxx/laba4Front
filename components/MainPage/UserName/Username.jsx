@@ -1,5 +1,4 @@
 import React from "react";
-import "./UserName.css"
 
 export default class Username extends React.Component {
     render() {

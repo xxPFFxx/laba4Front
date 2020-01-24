@@ -2,7 +2,6 @@ import React from "react";
 import AuthContainer from "./Auth/AuthContainer";
 import RegisterContainer from "./Register/RegisterContainer";
 import "./StartPage.css"
-import ToMainPageButton from "../TempButtons/ToMainPageButton";
 import Header from "../Header";
 
 
